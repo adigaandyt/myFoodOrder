@@ -1,0 +1,146 @@
+<html>
+  <head>
+    <title>La Stella</title>
+    <!-- This is the title of the website -->
+    <link rel="stylesheet" href="../style_project.css" />
+    <script src="../hw1.js"></script>
+    <!-- This is the file of JavaScript -->
+    <script src="../hw2.js"></script>
+    <!-- FontAwesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="../favicon.ico" />
+  </head>
+  <body>
+    <header>
+      <div id="navbar">
+        <img src="../media/logo.jpg" alt="La Stella Restaurant" />
+        <nav>
+          <ul>
+            <li><a href="project.html">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="content">
+        <audio controls autoplay>
+          <source src="../media/main.mp3" type="audio/mpeg" />
+        </audio>
+        <h1>
+          Welcome To <span class="primary-text">La Stella</span> Restaurant
+        </h1>
+        <p><b>Here you can find the most delicacies food in the world</b></p>
+        <video width="1300" height="300" controls autoplay>
+          <source src="../media/video.MP4" type="video/mp4" />
+        </video>
+      </div>
+    </header>
+    <main>
+      <!-- About Section Start -->
+      <section id="about">
+        <div class="container">
+          <div class="title">
+            <h2>La Stella History</h2>
+            <p><b>More than 4+ years of experience</b></p>
+          </div>
+          <div class="about-content">
+            <div>
+              <p>
+                <b
+                  >Welcome to La Stella restaurant where culinary innovation
+                  meets global inspiration. Our restaurant is a celebration of
+                  diverse flavors, blending traditional recipes with modern
+                  twists. From farm-fresh ingredients to creative dishes, we
+                  invite you to join us on a culinary journey like no other. We
+                  will make sure you are served the most authentic and fresh
+                  dishes, while offering the best customer service. Our kitchen
+                  is committed to providing our guests with the best Cuisine.</b
+                >
+              </p>
+            </div>
+            <img src="../media/about.jpg" alt="La Stella" />
+          </div>
+        </div>
+      </section>
+      <!-- About Section End -->
+
+      <!-- Gallery Section Start -->
+      <section id="gallery">
+        <div class="container">
+          <h2>Our Food & Restaurant Gallery</h2>
+          <div class="img-gallery">
+            <img src="../media/gallery1.jpg" alt="gallery1" />
+            <img src="../media/gallery2.jpg" alt="gallery2" />
+            <img src="../media/gallery3.jpg" alt="gallery3" />
+            <img src="../media/gallery4.jpg" alt="gallery4" />
+            <img src="../media/gallery5.jpg" alt="gallery5" />
+            <img src="../media/gallery6.jpg" alt="gallery6" />
+            <img src="../media/gallery7.jpg" alt="gallery7" />
+            <img src="../media/gallery8.jpg" alt="gallery8" />
+            <img src="../media/gallery9.jpg" alt="gallery9" />
+            <img src="../media/gallery10.jpg" alt="gallery10" />
+            <video width="280" height="200" controls>
+              <source src="../media/gallery11.MP4" type="video/mp4" />
+            </video>
+            <video width="280" height="200" controls autoplay>
+              <source src="../media/gallery12.MP4" type="video/mp4" />
+            </video>
+          </div>
+        </div>
+      </section>
+      <!-- Gallery Section End -->
+
+      <!-- Menu Section Start -->
+      <section id="menu">
+        <div class="container">
+          <div class="title">
+            <h2>Our Special Menu</h2>
+          </div>
+          <table>
+            <!-- Menu items with corrected image paths -->
+          </table>
+          <button type="button" onclick="verifyOrder()"><h3>Order</h3></button>
+        </div>
+      </section>
+      <!-- Menu Section End -->
+
+      <!-- Contact Section Start -->
+      <section id="contact">
+        <div class="container">
+          <div class="contact-content">
+            <div class="contact-info">
+              <div>
+                <h3>ADDRESS</h3>
+                <p><i class="fa-solid fa-location-dot"></i> Kafar Manda</p>
+                <p><i class="fa-solid fa-phone"></i> Phone: 052-800-5097</p>
+              </div>
+              <div>
+                <h3>WORKING HOURS</h3>
+                <p>11:00 am to 11:00 pm everyday</p>
+              </div>
+              <div>
+                <h3>FOLLOW US</h3>
+                <a href="https://www.facebook.com/LaStella.RC/?locale=he_IL"
+                  ><i class="fa-brands fa-facebook-f"></i
+                ></a>
+                <a href="https://www.instagram.com/la.stella.resturant/"
+                  ><i class="fa-brands fa-instagram"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Contact Section End -->
+    </main>
+  </body>
+</html>
